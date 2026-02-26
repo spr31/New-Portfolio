@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Suhas | AI Developer portfolio featuring 3D interactions, real-time systems, data dashboards, and renewable energy projects."
+    />
+    <meta
+      name="keywords"
+      content="Suhas, AI Developer, Data Enthusiast, Renewable Energy, FastAPI, Machine Learning, Portfolio"
+    />
+    <meta name="author" content="Suhas" />
+    <title>Suhas | AI Developer Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="bg-gradient" aria-hidden="true"></div>
+    <canvas id="particles-canvas" aria-hidden="true"></canvas>
+
+    <header class="site-header">
+      <nav class="nav container">
+        <a class="logo" href="#hero">Suhas<span>.dev</span></a>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section id="hero" class="hero section container">
+        <div class="hero-content">
+          <p class="hero-kicker">Premium AI Engineering Portfolio</p>
+          <h1>Hi, I&apos;m Suhas</h1>
+          <h2>AI Developer | Data Enthusiast | Renewable Energy Explorer</h2>
+          <p>
+            I build real-time intelligent systems, dashboards, and scalable backend
+            solutions.
+          </p>
+          <div class="hero-actions">
+            <a href="#projects" class="btn btn-primary">View Projects</a>
+            <a href="#contact" class="btn btn-outline">Contact Me</a>
+          </div>
+        </div>
+
+        <div class="hero-visual" id="hero-visual">
+          <div id="three-hero" class="three-panel" aria-label="3D developer scene"></div>
+          <div class="floating-holo holo-code">&lt;/&gt; FastAPI • WebSockets</div>
+          <div class="floating-holo holo-chart">⚡ Live AI Forecast +37%</div>
+          <div class="floating-holo holo-energy">☀ Solar Optimization Engine</div>
+          <div class="floating-holo holo-neural">◉ Neural Mesh Active</div>
+        </div>
+      </section>
+
+      <section id="about" class="section container split-section">
+        <div class="split-visual">
+          <div id="three-about" class="three-panel" aria-label="3D thinking pose scene"></div>
+        </div>
+        <div class="split-content">
+          <h3>About Me</h3>
+          <p>
+            I combine AI engineering, clean backend architecture, and human-centric
+            design to create scalable systems with meaningful real-world impact.
+          </p>
+          <div class="timeline">
+            <span>2022</span>
+            <span>Data Systems</span>
+            <span>2024</span>
+            <span>AI + Energy</span>
+            <span>2026</span>
+          </div>
+
+          <div class="skill-bars">
+            <div class="skill-item" data-level="95"><span>Python</span><div class="bar"><i></i></div></div>
+            <div class="skill-item" data-level="90"><span>FastAPI</span><div class="bar"><i></i></div></div>
+            <div class="skill-item" data-level="88"><span>Machine Learning</span><div class="bar"><i></i></div></div>
+            <div class="skill-item" data-level="92"><span>Data Visualization</span><div class="bar"><i></i></div></div>
+            <div class="skill-item" data-level="85"><span>Renewable Energy Systems</span><div class="bar"><i></i></div></div>
+          </div>
+        </div>
+      </section>
+
+      <section id="projects" class="section container">
+        <div class="section-head">
+          <h3>Featured Projects</h3>
+          <p>Immersive systems that blend intelligence, performance, and elegant UX.</p>
+        </div>
+
+        <div class="project-grid">
+          <article class="project-card featured">
+            <h4>Real-Time Sentiment Analysis Dashboard</h4>
+            <p>Streaming NLP insights with event-driven architecture and adaptive model scoring.</p>
+            <p class="stack">FastAPI • Kafka • React • Plotly • Redis</p>
+            <div class="graph-preview">
+              <span style="--h:32%"></span>
+              <span style="--h:55%"></span>
+              <span style="--h:78%"></span>
+              <span style="--h:62%"></span>
+              <span style="--h:88%"></span>
+              <span style="--h:74%"></span>
+            </div>
+            <div class="card-actions">
+              <a href="#" class="btn btn-primary">Live Demo</a>
+              <a href="#" class="btn btn-outline">GitHub</a>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <h4>Solar Grid Prediction Engine</h4>
+            <p>Forecasting plant output and balancing storage with ML-driven weather intelligence.</p>
+            <p class="stack">Python • XGBoost • TimescaleDB</p>
+            <div class="card-actions">
+              <a href="#" class="btn btn-primary">Live Demo</a>
+              <a href="#" class="btn btn-outline">GitHub</a>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <h4>AI Ops Monitoring Suite</h4>
+            <p>Unified telemetry dashboard with anomaly detection and proactive remediation workflows.</p>
+            <p class="stack">FastAPI • Prometheus • Grafana • Celery</p>
+            <div class="card-actions">
+              <a href="#" class="btn btn-primary">Live Demo</a>
+              <a href="#" class="btn btn-outline">GitHub</a>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section id="skills" class="section container split-section">
+        <div class="split-content">
+          <h3>Core Technologies</h3>
+          <p>Interactive orbiting stack designed for high-performance production ecosystems.</p>
+          <div class="tech-details" id="tech-details">Hover an orbiting icon to inspect expertise.</div>
+        </div>
+        <div class="split-visual">
+          <div id="three-skills" class="three-panel" aria-label="3D rotating technology sphere"></div>
+        </div>
+      </section>
+
+      <section id="contact" class="section container split-section">
+        <div class="split-visual">
+          <div id="three-contact" class="three-panel" aria-label="3D waving goodbye scene"></div>
+        </div>
+        <div class="split-content contact-content">
+          <h3>Let&apos;s Build Something Exceptional</h3>
+          <form class="contact-form">
+            <input type="text" placeholder="Your Name" required />
+            <input type="email" placeholder="Your Email" required />
+            <textarea rows="4" placeholder="Tell me about your project..." required></textarea>
+            <button type="submit" class="btn btn-primary">Send Message</button>
+          </form>
+          <div class="socials">
+            <a href="#" aria-label="LinkedIn">in</a>
+            <a href="#" aria-label="GitHub">gh</a>
+            <a href="#" aria-label="X">x</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>Designed &amp; Built by Suhas</p>
+    </footer>
+
+    <script src="https://unpkg.com/three@0.162.0/build/three.min.js"></script>
+    <script src="https://unpkg.com/three@0.162.0/examples/js/loaders/GLTFLoader.js"></script>
+    <script src="https://unpkg.com/gsap@3.12.5/dist/gsap.min.js"></script>
+    <script src="https://unpkg.com/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
+    <script src="script.js" defer></script>
+  </body>
+</html>
